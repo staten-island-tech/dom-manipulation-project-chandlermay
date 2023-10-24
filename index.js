@@ -1,2 +1,5 @@
-const find = document.querySelectorAll("tallest");
-find();
+function find(word) {
+    blue-box.querySelectorAll(word);
+    console.log(word);
+}
+find("tallest");
