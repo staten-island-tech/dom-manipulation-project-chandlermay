@@ -1,0 +1,31 @@
+
+.webtitle {
+    text-align: center;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65vw;
+    height: 100vw;
+    background-color: aquamarine;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+
+}
+
+.cardimg {
+
+}
+
+.cardtitle {
+    text-align: center;
+}
+
+.remvbtn {
+    align-items: center;
+}
