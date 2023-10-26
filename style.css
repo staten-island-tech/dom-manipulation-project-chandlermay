@@ -1,4 +1,8 @@
-
+html,
+*{
+background-color: rgb(0, 0, 0);
+}
+      
 .webtitle {
     text-align: center;
 }
@@ -6,26 +10,33 @@
 .cardcontainer {
     display: flex;
     flex-wrap: wrap;
-    width: 65vw;
-    height: 100vw;
-    background-color: aquamarine;
-    flex-direction: row;
-    justify-content: center;
+    height: 100vw; 
+    flex-direction: column;
+    justify-content: space-between;
     align-items: flex-start;
+    align-content: space-around;
 }
 
 .card {
-
+display: flex;
+flex-direction: column;
+padding-left: 2%;
+padding-top: 2%;
+padding-right:2%;
+padding-bottom:2%;
+background-color: bisque;
 }
 
 .cardimg {
-
+background-color: bisque;
 }
 
 .cardtitle {
     text-align: center;
+    background-color: bisque;
 }
 
 .remvbtn {
     align-items: center;
+    background-color: bisque;
 }
