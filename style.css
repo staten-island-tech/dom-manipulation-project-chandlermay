@@ -1,8 +1,12 @@
-html,
+head,
+*{
+    background-color: grey;
+}
+body,
 *{
 background-color: rgb(0, 0, 0);
 }
-      
+
 .webtitle {
     text-align: center;
 }
@@ -41,4 +45,5 @@ background-color: bisque;
 .remvbtn {
     align-items: center;
     background-color: bisque;
+    
 }
