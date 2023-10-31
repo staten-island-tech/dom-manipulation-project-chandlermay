@@ -1,5 +1,4 @@
-function find(word) {
-    blue-box.querySelectorAll(word);
-    console.log(word);
+const DOMSelectors = {
+    button: document.getElementById
+
 }
-find("tallest");
