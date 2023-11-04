@@ -21,7 +21,7 @@ background-color: rgb(255, 255, 255);
     justify-content: space-around;
 }
 
-.cardcontainer {
+#cardcontainer {
     display: flex;
     flex-wrap: wrap;
     height: 100vw; 
