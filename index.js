@@ -9,8 +9,6 @@ function backgroundandText(background, text) {
     text.textContent = "This is fun";
 }
 
-backgroundandText(DOMselectors.box, DOMselectors.text);
-
 DOMselectors.button.addEventListener("click", function () {
     backgroundandText(DOMselectors.box, DOMselectors.text);
 });
