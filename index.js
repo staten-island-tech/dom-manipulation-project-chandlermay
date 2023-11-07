@@ -5,6 +5,7 @@ const DOMselectors = {
     destinationname: document.getElementById("destination-name"),
     image: document.getElementById("img-url"),
     remover: document.querySelector(".rmvbtn"),
+    card: document.queryselector(".card"),
 };
 
 //INSERT NEW CARD//
@@ -15,7 +16,7 @@ DOMselectors.subbutton.addEventListener("click", function () {
     <div class="card">
     <h2 class="cardtitle">${destinationname}</h2>
     <img class="cardimg" src="${image}"></img>
-    <button class="rmvbtn">Remove Vacation Destination</button>
+    <button class="rmvbtn">Remove</button>
     </div>
     `;
     DOMselectors.secondbox.insertAdjacentHTML("afterbegin", cardhtml);
@@ -28,6 +29,6 @@ DOMselectors.subbutton.addEventListener("click", function (){
 })
 
 //REMOVE BUTTON//
-DOMselectors.remover.addEventListener("click" , function (){
-    
-})
+// DOMselectors.remover.addEventListener("click" , function (){
+//     DOMselectors.card.value ="";
+// })
