@@ -5,7 +5,9 @@ const DOMselectors = {
     destinationname: document.getElementById("destination-name"),
     image: document.getElementById("img-url"),
     remover: document.querySelector(".rmvbtn"),
-    card: document.queryselector(".card"),
+    card: document.querySelector(".card"),
+    cardtitle: document.querySelector(".cardtitle"),
+    cardimg: document.querySelector("cardimg"),
 };
 
 //INSERT NEW CARD//
@@ -20,7 +22,12 @@ DOMselectors.subbutton.addEventListener("click", function () {
     </div>
     `;
     DOMselectors.secondbox.insertAdjacentHTML("afterbegin", cardhtml);
+
+    const cards =[
+        
+    ]
 });
+
 
 //CLEAR INPUT FIELDS//
 DOMselectors.subbutton.addEventListener("click", function (){
@@ -29,6 +36,7 @@ DOMselectors.subbutton.addEventListener("click", function (){
 })
 
 //REMOVE BUTTON//
-// DOMselectors.remover.addEventListener("click" , function (){
-//     DOMselectors.card.value ="";
-// })
+DOMselectors.remover.addEventListener("click" , function (){
+    const card = DOMselectors.card;
+    card.remove();
+})
