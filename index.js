@@ -32,6 +32,11 @@ DOMselectors.subbutton.addEventListener("click", function (){
 })
 
 //REMOVE BUTTON//
-const remover = 
+DOMselectors.remover.forEach((removebutton) => {
+    removebutton.addEventListener("click", function(event) {
+        const objremove = event.target.parentElement;
+        objremove.remove();
+    })
+})
     
 })
