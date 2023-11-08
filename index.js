@@ -22,10 +22,6 @@ DOMselectors.subbutton.addEventListener("click", function () {
     </div>
     `;
     DOMselectors.secondbox.insertAdjacentHTML("afterbegin", cardhtml);
-
-    const cards =[
-        
-    ]
 });
 
 
@@ -36,7 +32,6 @@ DOMselectors.subbutton.addEventListener("click", function (){
 })
 
 //REMOVE BUTTON//
-DOMselectors.remover.addEventListener("click" , function (){
-    const card = DOMselectors.card;
-    card.remove();
+const remover = 
+    
 })
