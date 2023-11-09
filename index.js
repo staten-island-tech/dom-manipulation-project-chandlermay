@@ -30,12 +30,7 @@ DOMselectors.subbutton.addEventListener("click", function () {
 removeButton.addEventListener("click", removeCard);  
 });
 
-
 DOMselectors.subbutton.addEventListener("click", function () {
     DOMselectors.destinationname.value = "";
     DOMselectors.image.value = "";
 })
-
-
-
-
